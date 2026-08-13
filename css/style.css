@@ -25,3 +25,11 @@ background-color: var(--cor-escura);
   font-weight: 600;
   font-size: .9rem; 
 }
+.img-historica {
+    width: 50%;           /* Faz a imagem ocupar apenas metade (50%) da largura do bloco */
+    max-width: 300px;     /* Garante que ela não passe de 300 pixels de largura no computador */
+    height: auto;         /* Ajusta a altura automaticamente para não distorcer a imagem */
+    border-radius: 8px;   /* Mantém as bordas arredondadas */
+    display: block;       /* Permite centralizar a imagem */
+    margin: 0 auto 15px;  /* Centraliza a imagem horizontalmente e adiciona espaço abaixo */
+}
